@@ -6,6 +6,27 @@
 
 This Flutter application fetches data from an API endpoint (`https://jsonplaceholder.typicode.com/posts`) and displays a list of posts. The app includes various features such as search functionality, pull-to-refresh, theming with dark mode support, smooth animations, and a post detail page.
 
+How to Run the Project:
+-----------------------
+
+1.  Clone the repository.
+
+2.  Ensure `Flutter SDK` is installed.
+
+3.  Run `flutter pub get` to install dependencies.
+
+4.  Start the application using `flutter run`.
+
+
+**Dependencies Used:**
+----------------------
+
+1.  `flutter/material.dart` (For UI components)
+
+2.  `http` (For making API requests)
+
+3.  `dart:convert` (For parsing JSON responses)
+
 Features:
 ---------
 
@@ -62,23 +83,3 @@ Features:
 4.  **Handling API Errors**: Managing different failure scenarios like no internet connection and incorrect API responses.
 
 
-How to Run the Project:
------------------------
-
-1.  Clone the repository.
-
-2.  Ensure `Flutter SDK` is installed.
-
-3.  Run `flutter pub get` to install dependencies.
-
-4.  Start the application using `flutter run`.
-
-
-**Dependencies Used:**
-----------------------
-
-1.  `flutter/material.dart` (For UI components)
-
-2.  `http` (For making API requests)
-
-3.  `dart:convert` (For parsing JSON responses)
